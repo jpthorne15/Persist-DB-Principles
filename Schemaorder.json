@@ -1,0 +1,39 @@
+<script type="application/ld+json">
+{
+  "customer": {
+    "@type": "",
+    "name": ""
+  },
+  "orderedItem": [
+    {
+      "@type": "",
+      "orderItemNumber": "",
+      "orderQuantity": 1,
+      "orderedItem": {
+        "@type": "",
+        "name": ""
+      },
+      "orderItemStatus": "http://schema.org/OrderDelivered",
+      "orderDelivery": {
+        "@type": "",
+        "expectedArrivalFrom": "2015-03-10"
+      }
+    },
+    {
+      "@type": "",
+      "orderItemNumber": "",
+      "orderQuantity": 3,
+      "orderedItem": {
+        "@type": "",
+        "name": ""
+      },
+      "orderItemStatus": "http://schema.org/OrderInTransit",
+      "orderDelivery": {
+        "@type": "ParcelDelivery",
+        "expectedArrivalFrom": "2015-03-15",
+        "expectedArrivalUntil": "2015-03-18"
+      }
+    }
+  ]
+}
+</script>
